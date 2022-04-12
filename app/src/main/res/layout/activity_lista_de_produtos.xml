@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".listaDeProdutos">
+
+    <LinearLayout
+        android:id="@+id/linearLayout5"
+        android:layout_width="411dp"
+        android:layout_height="61dp"
+        android:background="#A1BFFF"
+        android:orientation="horizontal"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.997">
+
+        <ImageButton
+            android:id="@+id/btnHome"
+            android:layout_width="67dp"
+            android:layout_height="match_parent"
+            android:backgroundTint="#A1BFFF"
+            app:srcCompat="@drawable/ic_baseline_home_24"
+            tools:ignore="SpeakableTextPresentCheck" />
+
+        <ImageButton
+            android:id="@+id/botaoLista"
+            android:layout_width="64dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:backgroundTint="#A1BFFF"
+            app:srcCompat="@drawable/ic_baseline_list_24"
+            tools:ignore="SpeakableTextPresentCheck" />
+
+        <ImageButton
+            android:id="@+id/botaoCarrinho"
+            android:layout_width="63dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:backgroundTint="#A1BFFF"
+            app:srcCompat="@drawable/ic_baseline_shopping_cart_24"
+            tools:ignore="SpeakableTextPresentCheck" />
+
+        <ImageButton
+            android:id="@+id/botaoVendedor"
+            android:layout_width="60dp"
+            android:layout_height="match_parent"
+
+            android:layout_weight="1"
+            android:backgroundTint="#A1BFFF"
+            app:srcCompat="@drawable/ic_baseline_shopping_bag_24"
+            tools:ignore="SpeakableTextPresentCheck" />
+
+        <ImageButton
+            android:id="@+id/botaoPefil"
+            android:layout_width="61dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:backgroundTint="#A1BFFF"
+            app:srcCompat="@drawable/ic_baseline_account_circle_24"
+            tools:ignore="SpeakableTextPresentCheck,SpeakableTextPresentCheck" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="405dp"
+        android:layout_height="484dp"
+        android:orientation="vertical"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.336">
+
+        <TextView
+            android:id="@+id/textView6"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:text="Categorias"
+            android:textSize="34sp" />
+
+        <Button
+            android:id="@+id/btnCategoriaCelular"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:backgroundTint="#6FA7FF"
+            android:drawableEnd="@android:drawable/ic_menu_send"
+            android:text="Celulares                                                  " />
+
+        <Button
+            android:id="@+id/btnCategoriaBicicleta"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:backgroundTint="#6FA7FF"
+            android:drawableEnd="@android:drawable/ic_menu_send"
+            android:text="Bicicletas                                                  " />
+
+        <Button
+            android:id="@+id/btnCategoriaCamisas"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:backgroundTint="#6FA7FF"
+            android:drawableEnd="@android:drawable/ic_menu_send"
+            android:text="camisas                                                      " />
+
+        <Button
+            android:id="@+id/btnCategoriaCalcas"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:backgroundTint="#6FA7FF"
+            android:drawableEnd="@android:drawable/ic_menu_send"
+            android:text="Calças                                                        " />
+
+        <Button
+            android:id="@+id/btnCategoriaSapatos"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:backgroundTint="#6FA7FF"
+            android:drawableEnd="@android:drawable/ic_menu_send"
+            android:text="Sapatos                                                      " />
+
+        <Button
+            android:id="@+id/btnCategoriaBrinquedos"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:backgroundTint="#6FA7FF"
+            android:drawableEnd="@android:drawable/ic_menu_send"
+            android:text="Brinquedos                                                " />
+
+        <Button
+            android:id="@+id/btnCategoriaBijuterias"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:backgroundTint="#6FA7FF"
+            android:drawableEnd="@android:drawable/ic_menu_send"
+            android:text="Bijuterias                                                 " />
+    </LinearLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

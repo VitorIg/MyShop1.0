@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Users/vitto/AndroidStudioProjects/MyAppBrq/app/src/main/res/drawable-v24/ic_launcher_foreground.xml" value="0.127" />
+        <entry key="..\:/Users/vitto/AndroidStudioProjects/MyAppBrq/app/src/main/res/drawable/ic_baseline_account_circle_24.xml" value="0.1" />
+        <entry key="..\:/Users/vitto/AndroidStudioProjects/MyAppBrq/app/src/main/res/drawable/ic_baseline_home_24.xml" value="0.1" />
+        <entry key="..\:/Users/vitto/AndroidStudioProjects/MyAppBrq/app/src/main/res/drawable/ic_baseline_list_24.xml" value="0.1" />
+        <entry key="..\:/Users/vitto/AndroidStudioProjects/MyAppBrq/app/src/main/res/drawable/ic_baseline_shopping_bag_24.xml" value="0.1" />
+        <entry key="..\:/Users/vitto/AndroidStudioProjects/MyAppBrq/app/src/main/res/drawable/ic_baseline_shopping_cart_24.xml" value="0.1" />
+        <entry key="..\:/Users/vitto/AndroidStudioProjects/MyAppBrq/app/src/main/res/drawable/ic_circle.xml" value="0.1" />
+        <entry key="..\:/Users/vitto/AndroidStudioProjects/MyAppBrq/app/src/main/res/drawable/ic_home.xml" value="0.129" />
+        <entry key="..\:/Users/vitto/AndroidStudioProjects/MyAppBrq/app/src/main/res/drawable/ic_launcher_background.xml" value="0.127" />
+        <entry key="..\:/Users/vitto/AndroidStudioProjects/MyAppBrq/app/src/main/res/layout-w1240dp/activity_login.xml" value="0.16666666666666666" />
+        <entry key="..\:/Users/vitto/AndroidStudioProjects/MyAppBrq/app/src/main/res/layout-w936dp/activity_login.xml" value="0.19453125" />
+        <entry key="..\:/Users/vitto/AndroidStudioProjects/MyAppBrq/app/src/main/res/layout/activity_bicicleta_caloi.xml" value="0.2" />
+        <entry key="..\:/Users/vitto/AndroidStudioProjects/MyAppBrq/app/src/main/res/layout/activity_cadastrar_produto.xml" value="0.264" />
+        <entry key="..\:/Users/vitto/AndroidStudioProjects/MyAppBrq/app/src/main/res/layout/activity_cadastro_vendedor.xml" value="0.264" />
+        <entry key="..\:/Users/vitto/AndroidStudioProjects/MyAppBrq/app/src/main/res/layout/activity_calculadora.xml" value="0.12760416666666666" />
+        <entry key="..\:/Users/vitto/AndroidStudioProjects/MyAppBrq/app/src/main/res/layout/activity_camisa_paz_eamor.xml" value="0.264" />
+        <entry key="..\:/Users/vitto/AndroidStudioProjects/MyAppBrq/app/src/main/res/layout/activity_carrinho.xml" value="0.12265625" />
+        <entry key="..\:/Users/vitto/AndroidStudioProjects/MyAppBrq/app/src/main/res/layout/activity_carrinho_de_compra.xml" value="0.1296875" />
+        <entry key="..\:/Users/vitto/AndroidStudioProjects/MyAppBrq/app/src/main/res/layout/activity_categoria_bicicleta.xml" value="0.1813236627379873" />
+        <entry key="..\:/Users/vitto/AndroidStudioProjects/MyAppBrq/app/src/main/res/layout/activity_categoria_bicicletas.xml" value="0.2" />
+        <entry key="..\:/Users/vitto/AndroidStudioProjects/MyAppBrq/app/src/main/res/layout/activity_categoria_calcas.xml" value="0.1" />
+        <entry key="..\:/Users/vitto/AndroidStudioProjects/MyAppBrq/app/src/main/res/layout/activity_categoria_camisas.xml" value="0.264" />
+        <entry key="..\:/Users/vitto/AndroidStudioProjects/MyAppBrq/app/src/main/res/layout/activity_categoria_celulares.xml" value="0.264" />
+        <entry key="..\:/Users/vitto/AndroidStudioProjects/MyAppBrq/app/src/main/res/layout/activity_celular_galaxy_a32.xml" value="0.2" />
+        <entry key="..\:/Users/vitto/AndroidStudioProjects/MyAppBrq/app/src/main/res/layout/activity_celular_moto_f40.xml" value="0.2" />
+        <entry key="..\:/Users/vitto/AndroidStudioProjects/MyAppBrq/app/src/main/res/layout/activity_lista_de_produtos.xml" value="0.264" />
+        <entry key="..\:/Users/vitto/AndroidStudioProjects/MyAppBrq/app/src/main/res/layout/activity_login.xml" value="0.259375" />
+        <entry key="..\:/Users/vitto/AndroidStudioProjects/MyAppBrq/app/src/main/res/layout/activity_main.xml" value="0.2" />
+        <entry key="..\:/Users/vitto/AndroidStudioProjects/MyAppBrq/app/src/main/res/layout/activity_main_atualizar_dados.xml" value="0.2" />
+        <entry key="..\:/Users/vitto/AndroidStudioProjects/MyAppBrq/app/src/main/res/layout/activity_main_cadastro.xml" value="0.264" />
+        <entry key="..\:/Users/vitto/AndroidStudioProjects/MyAppBrq/app/src/main/res/layout/activity_main_cadastro_endereco.xml" value="0.2" />
+        <entry key="..\:/Users/vitto/AndroidStudioProjects/MyAppBrq/app/src/main/res/layout/activity_main_cadastro_vendedor.xml" value="0.264" />
+        <entry key="..\:/Users/vitto/AndroidStudioProjects/MyAppBrq/app/src/main/res/layout/activity_main_carrinho.xml" value="0.176" />
+        <entry key="..\:/Users/vitto/AndroidStudioProjects/MyAppBrq/app/src/main/res/layout/activity_main_contato.xml" value="0.264" />
+        <entry key="..\:/Users/vitto/AndroidStudioProjects/MyAppBrq/app/src/main/res/layout/activity_main_login.xml" value="0.2" />
+        <entry key="..\:/Users/vitto/AndroidStudioProjects/MyAppBrq/app/src/main/res/layout/activity_main_perfil_usuario.xml" value="0.264" />
+        <entry key="..\:/Users/vitto/AndroidStudioProjects/MyAppBrq/app/src/main/res/layout/activity_main_perfil_vendedor.xml" value="0.264" />
+        <entry key="..\:/Users/vitto/AndroidStudioProjects/MyAppBrq/app/src/main/res/layout/activity_main_produto_no_carrinho.xml" value="0.1" />
+        <entry key="..\:/Users/vitto/AndroidStudioProjects/MyAppBrq/app/src/main/res/layout/activity_mensgam_pagamento_plano.xml" value="0.18449682683590207" />
+        <entry key="..\:/Users/vitto/AndroidStudioProjects/MyAppBrq/app/src/main/res/layout/activity_mudar_senha.xml" value="0.2" />
+        <entry key="..\:/Users/vitto/AndroidStudioProjects/MyAppBrq/app/src/main/res/layout/activity_tela_bicicleta1.xml" value="0.1" />
+        <entry key="..\:/Users/vitto/AndroidStudioProjects/MyAppBrq/app/src/main/res/layout/activity_tela_bike.xml" value="0.2" />
+        <entry key="..\:/Users/vitto/AndroidStudioProjects/MyAppBrq/app/src/main/res/layout/activity_tela_lanterna.xml" value="0.1" />
+        <entry key="..\:/Users/vitto/AndroidStudioProjects/MyAppBrq/app/src/main/res/layout/activity_termo_plano_free.xml" value="0.2" />
+        <entry key="..\:/Users/vitto/AndroidStudioProjects/MyAppBrq/app/src/main/res/layout/activity_termo_plano_premium.xml" value="0.2129115006412997" />
+        <entry key="..\:/Users/vitto/AndroidStudioProjects/MyAppBrq/app/src/main/res/layout/content_categoria_bicicleta.xml" value="0.1813236627379873" />
+        <entry key="..\:/Users/vitto/AndroidStudioProjects/MyAppBrq/app/src/main/res/layout/content_main_atualizar_dados.xml" value="0.1933876811594203" />
+        <entry key="..\:/Users/vitto/AndroidStudioProjects/MyAppBrq/app/src/main/res/layout/fragment_first.xml" value="0.1933876811594203" />
+        <entry key="..\:/Users/vitto/AndroidStudioProjects/MyAppBrq/app/src/main/res/layout/fragment_second.xml" value="0.1933876811594203" />
+        <entry key="..\:/Users/vitto/AndroidStudioProjects/MyAppBrq/app/src/main/res/layout/spinner_estilo.xml" value="0.1" />
+        <entry key="..\:/Users/vitto/AndroidStudioProjects/MyAppBrq/app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml" value="0.127" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>

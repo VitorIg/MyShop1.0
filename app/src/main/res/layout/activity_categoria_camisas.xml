@@ -1,0 +1,185 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".categoriaCamisas">
+
+    <LinearLayout
+        android:id="@+id/linearLayout9"
+        android:layout_width="382dp"
+        android:layout_height="578dp"
+        android:orientation="horizontal"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/textView35"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+            <ImageButton
+                android:id="@+id/ImgCategoriaCamisaCamisaDry"
+                android:layout_width="match_parent"
+                android:layout_height="152dp"
+                app:srcCompat="@drawable/d_nq_np_2x_972013_mlb48809607252_012022_f" />
+
+            <TextView
+                android:id="@+id/textView36"
+                android:layout_width="match_parent"
+                android:layout_height="40dp" />
+
+            <ImageButton
+                android:id="@+id/ImgCategoriaCamisaCamisaTie"
+                android:layout_width="match_parent"
+                android:layout_height="165dp"
+                app:srcCompat="@drawable/d_nq_np_677639_mlb46751567886_072021_o" />
+
+            <TextView
+                android:id="@+id/textView34"
+                android:layout_width="match_parent"
+                android:layout_height="41dp" />
+
+            <ImageButton
+                android:id="@+id/ImgCategoriaCamisaCamisaRetrowave"
+                android:layout_width="match_parent"
+                android:layout_height="146dp"
+                app:srcCompat="@drawable/d_nq_np_2x_752845_mlb44400528465_122020_f" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="227dp"
+            android:layout_height="559dp"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/txtCategoriaBicicletaEspecificacaoBicicletaAluminio"
+                android:layout_width="213dp"
+                android:layout_height="40dp" />
+
+            <TextView
+                android:id="@+id/txtCategoriaCamisaEspecificacaoCamisaDry"
+                android:layout_width="214dp"
+                android:layout_height="49dp"
+                android:text="Camisa Tendencia Tie Dye Camiseta Good Vibes Masculina Trap" />
+
+            <TextView
+                android:id="@+id/txtCategoriaCamisaPrecoCamisaDry"
+                android:layout_width="wrap_content"
+                android:layout_height="128dp"
+                android:text="R$ 43, 99" />
+
+            <TextView
+                android:id="@+id/txtCategoriaCamisaEspecificacaoCamisaTie"
+                android:layout_width="170dp"
+                android:layout_height="wrap_content"
+                android:text="Camiseta Masculina Paz E Amor Tie Dye" />
+
+            <TextView
+                android:id="@+id/txtCategoriaCamisaPrecoCamisaTie"
+                android:layout_width="72dp"
+                android:layout_height="102dp"
+                android:text="R$ 35,91 " />
+
+            <TextView
+                android:id="@+id/txtCategoriaBicicletaEspecificacaoBicicletaKsw"
+                android:layout_width="123dp"
+                android:layout_height="67dp" />
+
+            <TextView
+                android:id="@+id/txtCategoriaCamisaEspecificacaoCamisaRetrowave"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Camisa Camiseta Retrowave Vibe Tumblr Hype Beat Trap Japa" />
+
+            <TextView
+                android:id="@+id/txtCategoriaCamisaPrecoCamisaRetrowave"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="R$ 39, 90" />
+
+        </LinearLayout>
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/textView46"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Camisas"
+        android:textSize="24sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.048" />
+
+    <LinearLayout
+        android:id="@+id/linearLayout5"
+        android:layout_width="411dp"
+        android:layout_height="61dp"
+        android:background="#A1BFFF"
+        android:orientation="horizontal"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.997">
+
+        <ImageButton
+            android:id="@+id/btnHome"
+            android:layout_width="67dp"
+            android:layout_height="match_parent"
+            android:backgroundTint="#A1BFFF"
+            app:srcCompat="@drawable/ic_baseline_home_24"
+            tools:ignore="SpeakableTextPresentCheck" />
+
+        <ImageButton
+            android:id="@+id/botaoLista"
+            android:layout_width="64dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:backgroundTint="#A1BFFF"
+            app:srcCompat="@drawable/ic_baseline_list_24"
+            tools:ignore="SpeakableTextPresentCheck" />
+
+        <ImageButton
+            android:id="@+id/botaoCarrinho"
+            android:layout_width="70dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:backgroundTint="#A1BFFF"
+            app:srcCompat="@drawable/ic_baseline_shopping_cart_24"
+            tools:ignore="SpeakableTextPresentCheck" />
+
+        <ImageButton
+            android:id="@+id/botaoVendedor"
+            android:layout_width="60dp"
+            android:layout_height="match_parent"
+
+            android:layout_weight="1"
+            android:backgroundTint="#A1BFFF"
+            app:srcCompat="@drawable/ic_baseline_shopping_bag_24"
+            tools:ignore="SpeakableTextPresentCheck" />
+
+        <ImageButton
+            android:id="@+id/botaoPefil"
+            android:layout_width="61dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:backgroundTint="#A1BFFF"
+            app:srcCompat="@drawable/ic_baseline_account_circle_24"
+            tools:ignore="SpeakableTextPresentCheck,SpeakableTextPresentCheck" />
+
+    </LinearLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

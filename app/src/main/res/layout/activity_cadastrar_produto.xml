@@ -1,0 +1,205 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".cadastrarProduto">
+
+    <LinearLayout
+        android:id="@+id/linearLayout5"
+        android:layout_width="411dp"
+        android:layout_height="61dp"
+        android:background="#A1BFFF"
+        android:orientation="horizontal"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.997">
+
+        <ImageButton
+            android:id="@+id/btnHome"
+            android:layout_width="67dp"
+            android:layout_height="match_parent"
+            android:backgroundTint="#A1BFFF"
+            app:srcCompat="@drawable/ic_baseline_home_24"
+            tools:ignore="SpeakableTextPresentCheck" />
+
+        <ImageButton
+            android:id="@+id/botaoLista"
+            android:layout_width="64dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:backgroundTint="#A1BFFF"
+            app:srcCompat="@drawable/ic_baseline_list_24"
+            tools:ignore="SpeakableTextPresentCheck" />
+
+        <ImageButton
+            android:id="@+id/botaoCarrinho"
+            android:layout_width="63dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:backgroundTint="#A1BFFF"
+            app:srcCompat="@drawable/ic_baseline_shopping_cart_24"
+            tools:ignore="SpeakableTextPresentCheck" />
+
+        <ImageButton
+            android:id="@+id/botaoVendedor"
+            android:layout_width="60dp"
+            android:layout_height="match_parent"
+
+            android:layout_weight="1"
+            android:backgroundTint="#A1BFFF"
+            app:srcCompat="@drawable/ic_baseline_shopping_bag_24"
+            tools:ignore="SpeakableTextPresentCheck" />
+
+        <ImageButton
+            android:id="@+id/botaoPefil"
+            android:layout_width="61dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:backgroundTint="#A1BFFF"
+            app:srcCompat="@drawable/ic_baseline_account_circle_24"
+            tools:ignore="SpeakableTextPresentCheck,SpeakableTextPresentCheck" />
+
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/txtTelaProduto"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Cadastrar Produtos"
+        android:textSize="34sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.109" />
+
+    <LinearLayout
+        android:id="@+id/linearLayout8"
+        android:layout_width="347dp"
+        android:layout_height="418dp"
+        android:orientation="vertical"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.415">
+
+        <TextView
+            android:id="@+id/textView10"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Categoria do Produto"
+            android:textSize="17sp" />
+
+        <Spinner
+            android:id="@+id/EdtCategoriaDoProduto"
+            android:layout_width="344dp"
+            android:layout_height="39dp" />
+
+        <EditText
+            android:id="@+id/EdtNomeDoProduto"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:hint="Nome do Produto "
+            android:inputType="textPersonName" />
+
+        <EditText
+            android:id="@+id/EdtCodigoBarra"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:hint="Codigo de Barra"
+            android:inputType="number" />
+
+        <EditText
+            android:id="@+id/EdtQuantidadeNoEstoque"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:hint="Quantidade "
+            android:inputType="number" />
+
+        <EditText
+            android:id="@+id/EdtDescricaoDoProduto"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:hint="Descrição do produto "
+            android:inputType="textPersonName" />
+
+        <EditText
+            android:id="@+id/EdtMarcaDoProduto"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:hint="Marca "
+            android:inputType="textPersonName" />
+
+        <EditText
+            android:id="@+id/EdtPrecoCusto"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:hint="Preço de custo "
+            android:inputType="number" />
+
+        <EditText
+            android:id="@+id/EdtPrecoVenda"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:hint="Preço de venda "
+            android:inputType="number" />
+
+        <LinearLayout
+            android:layout_width="319dp"
+            android:layout_height="66dp"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/txtImagemPorduto"
+                android:layout_width="wrap_content"
+                android:layout_height="35dp"
+                android:layout_weight="1"
+                android:hint="Adicionar imagens do produto"
+                android:textSize="16sp" />
+
+            <ImageButton
+                android:id="@+id/imgFotoProduto"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:backgroundTint="#FFFFFF"
+                app:srcCompat="@drawable/ic_baseline_image_24" />
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/btnCadastrarNovoProduto"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="84dp"
+        android:backgroundTint="#6FA7FF"
+        android:text="Cadastrar"
+        app:layout_constraintBottom_toBottomOf="@+id/linearLayout5"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="1.0" />
+
+    <TextView
+        android:id="@+id/txt_Display"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        tools:layout_editor_absoluteX="352dp"
+        tools:layout_editor_absoluteY="101dp" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

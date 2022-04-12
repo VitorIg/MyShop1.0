@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.myappbrq">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.MyAppBrq">
+        <activity
+            android:name=".Main_Perfil_Vendedor"
+            android:exported="false" />
+        <activity
+            android:name=".celularMotoF40"
+            android:exported="false" />
+        <activity
+            android:name=".camisaPazEAmor"
+            android:exported="false" />
+        <activity
+            android:name=".CelularGalaxyA32"
+            android:exported="false" />
+        <activity
+            android:name=".categoriaCalcas"
+            android:exported="false" />
+        <activity
+            android:name=".bicicletaCaloi"
+            android:exported="false" />
+        <activity
+            android:name=".telaBike"
+            android:exported="false" />
+        <activity
+            android:name=".categoriaCamisas"
+            android:exported="false" />
+        <activity
+            android:name=".categoriaCelulares"
+            android:exported="false" />
+        <activity
+            android:name=".categoriaBicicletas"
+            android:exported="false" />
+        <activity
+            android:name=".mensgamPagamentoPlano"
+            android:exported="false" />
+        <activity
+            android:name=".cadastrarProduto"
+            android:exported="false" />
+        <activity
+            android:name=".MainContato"
+            android:exported="false" />
+        <activity
+            android:name=".termoPlanoPremium"
+            android:exported="false" />
+        <activity
+            android:name=".termoPlanoFree"
+            android:exported="false" />
+        <activity
+            android:name=".MainCarrinho"
+            android:exported="false" />
+        <activity
+            android:name=".cadastroVendedor"
+            android:exported="false" />
+        <activity
+            android:name=".listaDeProdutos"
+            android:exported="false" />
+        <activity
+            android:name=".Main_perfil_usuario"
+            android:exported="false" />
+        <activity
+            android:name=".MainCadastro"
+            android:exported="false" />
+        <activity
+            android:name=".MainLogin"
+            android:exported="false" />
+        <activity
+            android:name=".MainActivity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

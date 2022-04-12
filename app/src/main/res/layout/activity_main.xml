@@ -1,0 +1,302 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/txtHomePrecoGalaxy1"
+    android:layout_width="wrap_content"
+    android:layout_height="match_parent"
+    android:background="#FFFFFF"
+    tools:context=".MainActivity">
+
+    <SearchView
+        android:id="@+id/botaoPesquisa"
+        android:layout_width="320dp"
+        android:layout_height="46dp"
+        android:background="#A1BFFF"
+        android:layoutDirection="rtl"
+        app:layout_constraintBottom_toBottomOf="@+id/linearLayout5"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.494"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.093">
+
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="TextView" />
+
+    </SearchView>
+
+    <ImageView
+        android:id="@+id/imgv_foto"
+        android:layout_width="292dp"
+        android:layout_height="110dp"
+        android:layout_marginStart="24dp"
+        android:layout_marginEnd="20dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.466"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.212"
+        app:srcCompat="@drawable/images__4_" />
+
+    <LinearLayout
+        android:id="@+id/linearLayout5"
+        android:layout_width="411dp"
+        android:layout_height="61dp"
+        android:background="#A1BFFF"
+        android:orientation="horizontal"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.997">
+
+        <ImageButton
+            android:id="@+id/btnHome"
+            android:layout_width="67dp"
+            android:layout_height="match_parent"
+            android:backgroundTint="#A1BFFF"
+            app:srcCompat="@drawable/ic_baseline_home_24"
+            tools:ignore="SpeakableTextPresentCheck" />
+
+        <ImageButton
+            android:id="@+id/botaoLista"
+            android:layout_width="64dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:backgroundTint="#A1BFFF"
+            app:srcCompat="@drawable/ic_baseline_list_24"
+            tools:ignore="SpeakableTextPresentCheck" />
+
+        <ImageButton
+            android:id="@+id/botaoCarrinho"
+            android:layout_width="63dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:backgroundTint="#A1BFFF"
+            app:srcCompat="@drawable/ic_baseline_shopping_cart_24"
+            tools:ignore="SpeakableTextPresentCheck" />
+
+        <ImageButton
+            android:id="@+id/botaoVendedor"
+            android:layout_width="60dp"
+            android:layout_height="match_parent"
+
+            android:layout_weight="1"
+            android:backgroundTint="#A1BFFF"
+            app:srcCompat="@drawable/ic_baseline_shopping_bag_24"
+            tools:ignore="SpeakableTextPresentCheck" />
+
+        <ImageButton
+            android:id="@+id/botaoPefil"
+            android:layout_width="61dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:backgroundTint="#A1BFFF"
+            app:srcCompat="@drawable/ic_baseline_account_circle_24"
+            tools:ignore="SpeakableTextPresentCheck,SpeakableTextPresentCheck" />
+
+        <ImageButton
+            android:id="@+id/botaoSuporte"
+            android:layout_width="66dp"
+            android:layout_height="match_parent"
+            android:backgroundTint="#A1BFFF"
+            app:srcCompat="@drawable/ic_baseline_contact_support_24" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/linearLayout6"
+        android:layout_width="381dp"
+        android:layout_height="180dp"
+        android:orientation="horizontal"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.499">
+
+        <LinearLayout
+            android:layout_width="165dp"
+            android:layout_height="174dp"
+            android:orientation="vertical">
+
+            <ImageButton
+                android:id="@+id/IbtnHomeProduto1"
+                android:layout_width="153dp"
+                android:layout_height="132dp"
+                app:srcCompat="@drawable/galaxya32" />
+
+            <TextView
+                android:id="@+id/txtHomeNomeProduto1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Galaxy A32" />
+
+            <TextView
+                android:id="@+id/txtHomePrecoProduto1"
+                android:layout_width="71dp"
+                android:layout_height="wrap_content"
+                android:text="R$ 1200,00" />
+
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/textView4"
+            android:layout_width="45dp"
+            android:layout_height="140dp"
+            android:layout_weight="1"
+            android:text="       " />
+
+        <LinearLayout
+            android:layout_width="160dp"
+            android:layout_height="174dp"
+            android:orientation="vertical">
+
+            <ImageButton
+                android:id="@+id/IbtnHomeProduto2"
+                android:layout_width="140dp"
+                android:layout_height="138dp"
+                app:srcCompat="@drawable/d_nq_np_677639_mlb46751567886_072021_o" />
+
+            <TextView
+                android:id="@+id/txtHomeNomeProduto2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Camisa PAz e Amor " />
+
+            <TextView
+                android:id="@+id/txtHomePrecoProduto2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="R$ 120,00" />
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <ImageView
+        android:id="@+id/imageView3"
+        android:layout_width="75dp"
+        android:layout_height="56dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0"
+        app:srcCompat="@drawable/whatsapp_image_2022_03_22_at_18_28_18" />
+
+    <ImageButton
+        android:id="@+id/btn_Figura_B"
+        android:layout_width="57dp"
+        android:layout_height="67dp"
+        android:backgroundTint="#FFFFFF"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.231"
+        app:srcCompat="@drawable/car_ui_icon_chevron" />
+
+    <TextView
+        android:id="@+id/txv_rotulos"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="#FFFFFF"
+        android:backgroundTint="#FFFFFF"
+        android:text="TextView"
+        android:textColor="#FFFFFF"
+        tools:layout_editor_absoluteX="82dp"
+        tools:layout_editor_absoluteY="16dp" />
+
+    <ImageButton
+        android:id="@+id/btn_Figura_A"
+        android:layout_width="59dp"
+        android:layout_height="67dp"
+        android:backgroundTint="#FFFFFF"
+        android:rotation="180"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.231"
+        app:srcCompat="@drawable/car_ui_icon_chevron" />
+
+    <LinearLayout
+        android:layout_width="384dp"
+        android:layout_height="179dp"
+        android:orientation="horizontal"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.407"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.849">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <ImageButton
+                android:id="@+id/IbtnHomeProduto3"
+                android:layout_width="152dp"
+                android:layout_height="126dp"
+                android:layout_weight="1"
+                app:srcCompat="@drawable/bicicletas5" />
+
+            <TextView
+                android:id="@+id/txtHomeNomeProduto3"
+                android:layout_width="163dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="Bicicleta aro 29" />
+
+            <TextView
+                android:id="@+id/txtHomePrecoProduto3"
+                android:layout_width="163dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="R$ 1200,00" />
+
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/textView31"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1" />
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <ImageButton
+                android:id="@+id/IbtnHomeProduto4"
+                android:layout_width="155dp"
+                android:layout_height="133dp"
+                app:srcCompat="@drawable/_539149_1" />
+
+            <TextView
+                android:id="@+id/txtHomeNomeProduto4"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Motorola Moto F40" />
+
+            <TextView
+                android:id="@+id/txtHomePrecoProduto4"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="R$ 990,00" />
+        </LinearLayout>
+    </LinearLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
